@@ -2,13 +2,13 @@
 
 '''
  1. Make the following program work.
-   '''  
+   '''
      print("This program takes three numbers and returns the sum.")
      total = 0
 
      for i in range(3):
-         x = input("Enter a number: ")
-         total = total + i
+         x = int(input("Enter a number: "))
+         total = x + i
      print("The total is:", x)
   
 
@@ -17,7 +17,9 @@
   2. Write a Python program that will use a FOR loop to print the even
      numbers from 2 to 100, inclusive.
 '''
-
+for i in range(99):
+    i+=2
+    print(i)
 
 
 
@@ -27,7 +29,9 @@
      10 down to, and including, 0. Then print the words Blast off! Remember, use
      a WHILE loop, don't use a FOR loop.
 '''
-
+for i in range(10,-1,-1):
+    print(i)
+print("Blast OFF!")
 
 
 
