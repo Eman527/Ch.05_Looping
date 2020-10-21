@@ -3,13 +3,13 @@
 '''
  1. Make the following program work.
    '''
-     print("This program takes three numbers and returns the sum.")
-     total = 0
+print("This program takes three numbers and returns the sum.")
+total = 0
 
-     for i in range(3):
-         x = int(input("Enter a number: "))
-         total = x + i
-     print("The total is:", x)
+for i in range(3):
+    x = int(input("Enter a number: "))
+    total = x + i
+print("The total is:",x)
   
 
 
@@ -20,8 +20,6 @@
 for i in range(99):
     i+=2
     print(i)
-
-
 
 
 '''
@@ -40,8 +38,8 @@ print("Blast OFF!")
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
 '''
-
-
+for i in range(10):
+    print(i)
 
 
 
