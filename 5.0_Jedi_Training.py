@@ -1,4 +1,4 @@
-  #Sign your name:________________
+  #Sign your name: Evan Redenius
 
 '''
  1. Make the following program work.
@@ -8,9 +8,9 @@ total = 0
 
 for i in range(3):
     x = int(input("Enter a number: "))
-    total = x + i
-print("The total is:",x)
-  
+    total = x + total
+print("The total is:",total)
+
 
 
 '''
@@ -54,3 +54,21 @@ for i in range(10):
      if statements.
       
 '''
+print("This program takes seven numbers and returns the sum.")
+total = 0
+Pos=0
+Neg=0
+Zero=0
+for i in range(7):
+    x = int(input("Enter a number: "))
+    if x>0:
+        Pos= Pos+1
+    elif x<0:
+        Neg= Neg+1
+    else:
+        Zero= Zero+1
+    total = x + total
+print("The total is:",total)
+print("The total number of positives is:",Pos)
+print("The total number of Negitaves is:",Neg)
+print("The total number of Zeros is:",Zero)
