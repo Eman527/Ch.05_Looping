@@ -38,7 +38,8 @@ print("Blast OFF!")
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
 '''
-for i in range(10):
+import random
+for i in range(11):
     print(i)
 
 
