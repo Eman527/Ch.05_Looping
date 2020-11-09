@@ -37,7 +37,7 @@ while not Done:
         print()
         print("You are thirsty")
         print()
-    elif Thirst > 6:
+    elif Thirst >= 6:
         print()
         print("You died of thirst!")
         print()
@@ -46,7 +46,7 @@ while not Done:
         print()
         print("Your camel is getting tired.")
         print()
-    elif Camel_eng > 8:
+    elif Camel_eng >= 8:
         print()
         print("Your camel is dead.")
         print()
