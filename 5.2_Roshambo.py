@@ -10,6 +10,23 @@ Add conditional statements to figure out who wins and keep the records
 When the user quits print a win/loss record
 
 '''
+done = False
+while not done:
+    PLR = input("Enter 1 for Rock 2 for Paper and 3 for Scissors or 4 if you want to quit? ")
+    if PLR == 1:
+        PLR = "Rock"
+    elif PLR == 2:
+        PLR = "Paper"
+    else:
+        PLR = "Scissor"
+    import random
+    RPS = int(random.randrange(1, 4))
+    if RPS == 1:
+        print("Rock")
+    elif RPS == 2:
+        print("Paper")
+    else:
+        print("Scissors")
 
 
 
@@ -17,6 +34,34 @@ When the user quits print a win/loss record
 
 
 
+
+
+
+
+
+
+
+'''
+G = False
+Quit = input("Would you like to quit? ")
+if Quit.lower() == "yes":
+    G = True
+else:
+while G is False:
+    PLR = input("Rock, Paper, Scissors? ")
+    if PLR.lower() == "rock":
+        PLR = "Rock" 
+    
+    
+    import random
+    RPS = random.randrange(1, 4)
+    if RPS == 1:
+        RPS = "Scissors"
+    elif RPS == 2:
+        RPS = "Rock"
+    else:
+        RPS = "Paper"
+'''
 
 
 
